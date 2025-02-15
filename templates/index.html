@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Match Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>⚽ Football Match Predictor</h1>
+
+        <form id="predictForm">
+            <div class="team-selection">
+                <div class="team">
+                    <label for="home_league">Home League:</label>
+                    <select id="home_league" required></select>
+
+                    <label for="home">Home Team:</label>
+                    <select id="home" required></select>
+                </div>
+
+                <div class="vs">VS</div>
+
+                <div class="team">
+                    <label for="away_league">Away League:</label>
+                    <select id="away_league" required></select>
+
+                    <label for="away">Away Team:</label>
+                    <select id="away" required></select>
+                </div>
+            </div>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        <h2>Prediction Result:</h2>
+        <div id="result"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
