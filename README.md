@@ -99,10 +99,10 @@ Your web app should now be running at http://127.0.0.1:5000/ 🎉
 ## **📌 App Screenshots**
 
 ### **Initial Look**
-![Football Match Predictor](https://raw.githubusercontent.com/your-username/your-repo/main/screenshot.png](https://github.com/Lavdriim-m/Football-Match-Predictor-using-Machine-Learning/blob/main/FMP01.png?raw=true))
+![Football Match Predictor UI](https://github.com/Lavdriim-m/Football-Match-Predictor-using-Machine-Learning/blob/main/FMP01.png?raw=true)
 
 ### **Match: Barcelona vs. Real Madrid**
-![Football Match Predictor]([https://raw.githubusercontent.com/your-username/your-repo/main/screenshot.png](https://github.com/Lavdriim-m/Football-Match-Predictor-using-Machine-Learning/blob/main/FMP01.png?raw=true)](https://github.com/Lavdriim-m/Football-Match-Predictor-using-Machine-Learning/blob/main/FMP02.png?raw=true))
+![Prediction Results](https://github.com/Lavdriim-m/Football-Match-Predictor-using-Machine-Learning/blob/main/FMP02.png?raw=true)
 
 ---
 
